@@ -1,0 +1,76 @@
+<svg width="1400" height="420" viewBox="0 0 1400 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="pinkGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FF4F9A"/>
+      <stop offset="100%" stop-color="#FF9BC8"/>
+    </linearGradient>
+    <filter id="glow" x="-70%" y="-70%" width="240%" height="240%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <style>
+      .sans { font-family: Arial, Helvetica, sans-serif; }
+      .serif { font-family: Georgia, 'Times New Roman', serif; }
+      .floatA { animation: floatA 4s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+      .floatB { animation: floatB 5.2s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+      .pulse { animation: pulse 2.2s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+      .rotate { animation: rotate 12s linear infinite; transform-box: fill-box; transform-origin: center; }
+      .blink { animation: blink 1s steps(1,end) infinite; }
+      .dash { stroke-dasharray: 10 14; animation: dash 10s linear infinite; }
+      @keyframes floatA { 0%,100%{transform:translateY(0)} 50%{transform:translateY(-12px)} }
+      @keyframes floatB { 0%,100%{transform:translateY(0) rotate(-3deg)} 50%{transform:translateY(10px) rotate(3deg)} }
+      @keyframes pulse { 0%,100%{opacity:.45;transform:scale(.92)} 50%{opacity:1;transform:scale(1.08)} }
+      @keyframes rotate { from{transform:rotate(0deg)} to{transform:rotate(360deg)} }
+      @keyframes blink { 0%,45%{opacity:1} 46%,100%{opacity:0} }
+      @keyframes dash { to { stroke-dashoffset:-220; } }
+    </style>
+  </defs>
+
+  <!-- FUNDO TRANSPARENTE -->
+
+  <path d="M35 60 C210 18 360 18 510 40" stroke="#FF5FA2" stroke-opacity=".35" stroke-width="2"/>
+  <path d="M880 385 C1040 350 1200 390 1360 335" stroke="#FF5FA2" stroke-opacity=".30" stroke-width="2"/>
+
+  <g>
+    <text x="75" y="115" fill="#FFD6E8" font-size="27" class="serif">Olá, eu sou</text>
+    <text x="75" y="170" fill="#FFFFFF" font-size="48" font-weight="700" class="serif">Alícia Eduarda</text>
+    <rect x="75" y="202" width="410" height="44" rx="22" fill="#FF5FA2" fill-opacity=".08" stroke="#FF5FA2" stroke-opacity=".65"/>
+    <text x="98" y="230" fill="#FF79B2" font-size="17" font-weight="700" letter-spacing="1.6" class="sans">FRONT-END • UI/UX • DESIGN</text>
+    <text x="75" y="285" fill="#CFC7CC" font-size="18" class="sans">design ✦ desenvolvimento ✦ criatividade</text>
+  </g>
+
+  <g>
+    <circle cx="700" cy="205" r="128" stroke="#FF5FA2" stroke-opacity=".32" stroke-width="2" class="dash"/>
+    <circle cx="700" cy="205" r="96" fill="#FF5FA2" fill-opacity=".05"/>
+    <g class="rotate">
+      <circle cx="700" cy="75" r="7" fill="#FF5FA2" filter="url(#glow)"/>
+      <circle cx="830" cy="205" r="5" fill="#FF9BC8"/>
+      <circle cx="700" cy="335" r="6" fill="#FF5FA2"/>
+      <circle cx="570" cy="205" r="4" fill="#FFD6E8"/>
+    </g>
+    <g class="floatA">
+      <rect x="615" y="135" width="170" height="135" rx="22" fill="#111318" fill-opacity=".72" stroke="#FF5FA2" stroke-opacity=".8"/>
+      <circle cx="642" cy="160" r="6" fill="#FF5FA2"/>
+      <circle cx="663" cy="160" r="6" fill="#FF9BC8"/>
+      <circle cx="684" cy="160" r="6" fill="#FFD6E8"/>
+      <text x="648" y="230" fill="#FF79B2" font-size="54" font-weight="700" class="sans">&lt;/&gt;</text>
+    </g>
+    <g class="floatB">
+      <rect x="745" y="240" width="112" height="82" rx="20" fill="#FFF7FA" fill-opacity=".95" stroke="#FFB5D3" stroke-opacity=".8"/>
+      <text x="784" y="293" fill="#FF4F9A" font-size="34" class="sans">♥</text>
+    </g>
+    <g class="pulse" filter="url(#glow)">
+      <circle cx="585" cy="125" r="27" fill="#FF5FA2"/>
+      <text x="572" y="136" fill="white" font-size="24" class="sans">✦</text>
+    </g>
+  </g>
+
+  <g>
+    <text x="945" y="150" fill="#FFD6E8" font-size="28" class="serif">BEM-VINDO ao meu</text>
+    <text x="945" y="208" fill="url(#pinkGrad)" font-size="49" font-weight="700" class="serif">espaço digital</text>
+    <text x="945" y="260" fill="#FFFFFF" font-size="19" class="sans">&gt; criatividade que gera resultados</text>
+    <rect x="1296" y="240" width="5" height="28" rx="2" fill="#FF5FA2" class="blink"/>
+    <g class="pulse"><text x="1218" y="110" fill="#FF5FA2" font-size="38" class="sans">✦</text></g>
+    <text x="1288" y="310" fill="#FF9BC8" font-size="26" class="sans">♡</text>
+  </g>
+</svg>
