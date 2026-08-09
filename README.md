@@ -1,10 +1,10 @@
 <div align="center">
-  <img src="./assets/capa-animada.svg" width="100%" alt="Capa animada de Alícia Eduarda" />
+  <img src="capa-animada.svg" width="100%" alt="Capa animada de Alícia Eduarda" />
 </div>
 
 <br>
 
-<img src="./assets/sections/sobre-mim.svg" width="100%" alt="Sobre mim" />
+<img src="sobre-mim.svg" width="100%" alt="Sobre mim" />
 
 Sou estudante de **Análise e Desenvolvimento de Sistemas** e **Publicidade e Propaganda**.
 
@@ -12,7 +12,7 @@ Gosto de unir **desenvolvimento, design e estratégia** para criar experiências
 
 <br>
 
-<img src="./assets/sections/ferramentas-tecnologias.svg" width="100%" alt="Ferramentas e tecnologias" />
+<img src="ferramentas-tecnologias.svg" width="100%" alt="Ferramentas e tecnologias" />
 
 <div align="center">
 
@@ -32,18 +32,54 @@ Gosto de unir **desenvolvimento, design e estratégia** para criar experiências
 
 <br>
 
-<img src="./assets/sections/projetos.svg" width="100%" alt="Projetos" />
+<img src="projetos.svg" width="100%" alt="Projetos" />
 
-<!-- Vamos montar esta seção na próxima etapa. -->
+<table>
+<tr>
+<td width="33%" valign="top">
+
+### Artrixy Studio ✦
+Portfólio pessoal criado para apresentar meus projetos, habilidades e experiências em **desenvolvimento e design**.
+
+`HTML` `CSS` `JavaScript`
+
+</td>
+<td width="33%" valign="top">
+
+### Zona Barmy ✦
+Plataforma web para organização de **informações, mapas, checklists, links e conteúdos**.
+
+`HTML` `CSS` `JavaScript` `Maps`
+
+</td>
+<td width="33%" valign="top">
+
+### Barmy360 ✦
+Projeto digital desenvolvido para **centralização de conteúdos e experiências interativas**.
+
+`Web` `UI/UX` `Firebase`
+
+</td>
+</tr>
+</table>
+
+---
 
 <br>
 
-<img src="./assets/sections/github-stats.svg" width="100%" alt="GitHub Stats" />
+## ✦ Vamos nos conectar
 
-<!-- Vamos montar os cards de stats na próxima etapa. -->
+<div align="center">
 
-<br>
+[![E-mail](https://img.shields.io/badge/E--MAIL-171417?style=for-the-badge&logo=gmail&logoColor=FF5FA2)](mailto:aliciaeduardaartrixy@gmail.com)
+[![GitHub](https://img.shields.io/badge/GITHUB-171417?style=for-the-badge&logo=github&logoColor=FF5FA2)](https://github.com/aliciaeduarda)
 
-<img src="./assets/sections/atividade-recente.svg" width="100%" alt="Atividade recente" />
+</div>
 
-<!-- Vamos montar o gráfico e a cobrinha na próxima etapa. -->
+<div align="center">
+
+### ✦ criatividade que gera resultados.
+
+<sub>feito com ♡ por Alícia Eduarda</sub>
+
+</div>
